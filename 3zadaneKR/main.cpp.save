@@ -1,0 +1,26 @@
+#include <cstdio>
+
+double RekSec(int n);
+
+int main()
+{
+    int n = 0;
+    FILE* tmp = fopen("input.txt", "r");
+    fscanf(tmp, "%d", n);
+    fclose(tmp);
+    tmp = fopen("output.txt", "w");
+    double ans = RekSec(n);
+    fprintf(tmp, "%lf.3", ans);
+    fclose(tmp);
+    return 0;
+}
+
+double RekSec(int n)
+    {
+    int
+    if(n == 0)
+        {
+        
+        }
+    return ans;
+    }

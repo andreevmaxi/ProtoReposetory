@@ -1,0 +1,41 @@
+#include <cstdio>
+
+int x(int n);
+
+int main()
+{
+    scanf("%d", &n);
+    
+    return 0;
+}
+
+int x(int n)
+    {
+    if(n > 3)
+        {
+        return 14* x(n-1) - 51*x(n-2) + 54*x(n-3);
+        } else
+        {
+        switch(n)
+            {
+            case 1:
+                return 14;
+                break;
+
+            case 2:
+                return 94;
+                break;
+
+            case 3:
+                return 764;
+                break;
+
+            default:
+                return 0;
+                break
+            }
+        } else
+        {
+        return 0;
+        }
+    }
